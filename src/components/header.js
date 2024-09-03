@@ -9,11 +9,11 @@ const Header = () => {
                     <img src={MyLogo} alt='' style={styles.logo} />
                 </a>
                 <ul style={styles.navList}>
-                    <li style={styles.navItem}><a href="/natnael-kora/home" style={styles.navLink}>Home</a></li>
-                    <li style={styles.navItem}><a href="/natnael-kora/about" style={styles.navLink}>About</a></li>
-                    <li style={styles.navItem}><a href="/natnael-kora/portfolio" style={styles.navLink}>Portfolio</a></li>
-                    <li style={styles.navItem}><a href="/natnael-kora/resume" style={styles.navLink}>Resume</a></li>
-                    <li style={styles.navItem}><a href="/natnael-kora/contact" style={styles.navLink}>Contact</a></li>
+                    <li style={styles.navItem}><a href="/home" style={styles.navLink}>Home</a></li>
+                    <li style={styles.navItem}><a href="/about" style={styles.navLink}>About</a></li>
+                    <li style={styles.navItem}><a href="/portfolio" style={styles.navLink}>Portfolio</a></li>
+                    <li style={styles.navItem}><a href="/resume" style={styles.navLink}>Resume</a></li>
+                    <li style={styles.navItem}><a href="/contact" style={styles.navLink}>Contact</a></li>
                 </ul>
             </nav>
         </header>
