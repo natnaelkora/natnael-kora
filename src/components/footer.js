@@ -9,11 +9,11 @@ const Footer = () => {
                 <p style={styles.name}>Natnael G. Kora </p>
                 <nav>
                     <ul style={styles.navList}>
-                        <li style={styles.navItem}><a href="/home" >Home</a></li>
-                        <li style={styles.navItem}><a href="/about" >About</a></li>
-                        <li style={styles.navItem}><a href="/portfolio" >Portfolio</a></li>
-                        <li style={styles.navItem}><a href="/resume" >Resume</a></li>
-                        <li style={styles.navItem}><a href="/contact" >Contact</a></li>
+                        <li style={styles.navItem}><a href="/natnael-kora/home" >Home</a></li>
+                        <li style={styles.navItem}><a href="/natnael-kora/about" >About</a></li>
+                        <li style={styles.navItem}><a href="/natnael-kora/portfolio" >Portfolio</a></li>
+                        <li style={styles.navItem}><a href="/natnael-kora/resume" >Resume</a></li>
+                        <li style={styles.navItem}><a href="/natnael-kora/contact" >Contact</a></li>
                         <li style={styles.navItem}><a href="https://youtu.be/dQw4w9WgXcQ" >T&C</a></li>
                     </ul>
                 </nav>
