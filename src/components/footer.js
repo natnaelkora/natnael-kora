@@ -9,7 +9,7 @@ const Footer = () => {
                 <p style={styles.name}>Natnael G. Kora </p>
                 <nav>
                     <ul style={styles.navList}>
-                        <li style={styles.navItem}><a href="/" >Home</a></li>
+                        <li style={styles.navItem}><a href="/home" >Home</a></li>
                         <li style={styles.navItem}><a href="/about" >About</a></li>
                         <li style={styles.navItem}><a href="/portfolio" >Portfolio</a></li>
                         <li style={styles.navItem}><a href="/resume" >Resume</a></li>
