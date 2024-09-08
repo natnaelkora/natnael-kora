@@ -6,7 +6,9 @@ const Header = () => {
         <header style={styles.header}>
             <nav style={styles.nav}>
                 <a href="/" style={styles.logoLink}>
-                    <img src={MyLogo} alt='' style={styles.logo} />
+                    <p>
+                        Natnael G. Kora
+                    </p>
                 </a>
                 <ul style={styles.navList}>
                     <li style={styles.navItem}><a href="/home" style={styles.navLink}>Home</a></li>
