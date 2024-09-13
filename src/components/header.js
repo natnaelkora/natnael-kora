@@ -1,11 +1,15 @@
 import React from 'react';
+
+/*
 import MyLogo from '../assets/logo-cropped.png';
+*/
+
 
 const Header = () => {
     return (
         <header style={styles.header}>
             <nav style={styles.nav}>
-                <a href="/" style={styles.logoLink}>
+                <a href="/home" style={styles.logoLink}>
                     <p>
                         Natnael G. Kora
                     </p>
@@ -35,6 +39,7 @@ const styles = {
     },
     logoLink: {
         display: 'inline-block',
+        margin: '10px',
     },
     logo: {
         maxHeight: '64px',
