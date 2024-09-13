@@ -55,8 +55,8 @@ const Resume = () => {
           </ul>
         </div>
 
-        {/* Download Resume Button */}
-        <a href='https://drive.google.com/file/d/1ite0UzhA5zseShXH_oqXVkFNwl2Z_kpe/view?usp=sharing' style={styles.downloadButton}>
+        {/* View Resume Button */}
+        <a href='https://drive.google.com/file/d/1ite0UzhA5zseShXH_oqXVkFNwl2Z_kpe/view?usp=sharing' target='_blank' rel= 'noreferrer' style={styles.downloadButton}>
           View My Resume
         </a>
       </div>
