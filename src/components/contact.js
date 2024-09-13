@@ -36,7 +36,7 @@ const Contact = () => {
 
         <form onSubmit={handleSubmit} style={styles.form}>
           <div style={styles.formGroup}>
-            <label htmlFor="name" style={styles.label}>Name</label>
+            <label htmlFor="name" style={styles.label}>Full Name*</label>
             <input
               type="text"
               id="name"
@@ -49,7 +49,7 @@ const Contact = () => {
           </div>
 
           <div style={styles.formGroup}>
-            <label htmlFor="email" style={styles.label}>Email</label>
+            <label htmlFor="email" style={styles.label}>Email*</label>
             <input
               type="email"
               id="email"
@@ -62,7 +62,7 @@ const Contact = () => {
           </div>
 
           <div style={styles.formGroup}>
-            <label htmlFor="message" style={styles.label}>Message</label>
+            <label htmlFor="message" style={styles.label}>Message*</label>
             <textarea
               id="message"
               name="message"
@@ -77,13 +77,7 @@ const Contact = () => {
         </form>
 
         <div style={styles.alternativeContact}>
-          <p>You can also reach me at:</p>
-          <p><a href="mailto:nathanielgebremeskel@gmail.com" style={styles.contactLink}>nathanielgebremeskel@gmail.com</a></p>
-          <p>Or connect with me on social media:</p>
-          <div style={styles.socialLinks}>
-            <a href="https://www.linkedin.com/in/natnael-gebremeskel-kora-42a70a195" target="_blank" rel="noopener noreferrer" style={styles.socialLink}>LinkedIn</a>
-            <a href="https://github.com/natnaelkora" target="_blank" rel="noopener noreferrer" style={styles.socialLink}>GitHub</a>
-          </div>
+          <p>Connect with me on social media:</p>
         </div>
       </div>
     </section>
@@ -163,12 +157,6 @@ const styles = {
     color: '#282c34',
     textDecoration: 'none',
     fontSize: '18px',
-  },
-  socialLinks: {
-    display: 'flex',
-    justifyContent: 'center',
-    gap: '20px',
-    marginTop: '10px',
   },
   socialLink: {
     color: '#282c34',

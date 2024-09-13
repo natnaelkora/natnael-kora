@@ -3,7 +3,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Home from './components/home';
 import About from './components/about';
-import Portfolio from './components/portfolio';
+import Experience from './components/experience';
 import Resume from './components/resume';
 import Contact from './components/contact';
 
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route exact path="/home" element={<Home />} />
         <Route path="/about" element={<About />}/>
-        <Route path="/portfolio" element={<Portfolio />}/>
+        <Route path="/experience" element={<Experience />}/>
         <Route path="/resume" element={<Resume />}/>
         <Route path="/contact" element={<Contact />}/>
       </Routes>

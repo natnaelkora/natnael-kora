@@ -28,9 +28,9 @@ const Portfolio = () => {
   return (
     <section style={styles.portfolio}>
       <div style={styles.container}>
-        <h1 style={styles.heading}>My Portfolio</h1>
+        <h1 style={styles.heading}>My Experiences</h1>
         <p style={styles.description}>
-          Below are some of the projects I’ve worked on. Click on any project to learn more.
+          Below are some of the projects I’ve worked on.
         </p>
 
         <div style={styles.grid}>

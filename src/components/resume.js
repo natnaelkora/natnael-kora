@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Resume = () => {
   return (
     <section style={styles.resume}>
@@ -10,28 +11,33 @@ const Resume = () => {
         <div style={styles.section}>
           <h2 style={styles.subheading}>Education</h2>
           <div style={styles.entry}>
-            <h3 style={styles.entryTitle}>IT Engineering - Your University</h3>
-            <p style={styles.entryDate}>Graduated: 202X</p>
+            <h3 style={styles.entryTitle}>Information Technology, B.Sc. - Addis Ababa University</h3>
+            <p style={styles.entryDate}>Graduated: 2021</p>
             <p style={styles.entryDescription}>Brief description of your studies, key courses, and any relevant projects.</p>
           </div>
         </div>
 
         {/* Experience Section */}
         <div style={styles.section}>
-          <h2 style={styles.subheading}>Experience</h2>
+          <h2 style={styles.subheading}>Occupations</h2>
           <div style={styles.entry}>
-            <h3 style={styles.entryTitle}>Systems and Cloud Solutions Architect & Channel Manager</h3>
-            <p style={styles.entryDate}>Company Name - Dates</p>
+            <h3 style={styles.entryTitle}>Front-end Developer</h3>
+            <p style={styles.entryDate}>Yaltopia Tech - Dates</p>
             <p style={styles.entryDescription}>Description of your role, responsibilities, and key achievements.</p>
           </div>
           <div style={styles.entry}>
-            <h3 style={styles.entryTitle}>Junior System and Cloud Solutions Engineer Intern</h3>
-            <p style={styles.entryDate}>Company Name - Dates</p>
+            <h3 style={styles.entryTitle}>Systems and Cloud Solutions Architect & Channel Manager</h3>
+            <p style={styles.entryDate}>IE Network solutions - Dates</p>
+            <p style={styles.entryDescription}>Description of your role, responsibilities, and key achievements.</p>
+          </div>
+          <div style={styles.entry}>
+            <h3 style={styles.entryTitle}>System and Cloud Solutions Engineer</h3>
+            <p style={styles.entryDate}>IE Network solutions - Dates</p>
             <p style={styles.entryDescription}>Description of your role, responsibilities, and key achievements.</p>
           </div>
           <div style={styles.entry}>
             <h3 style={styles.entryTitle}>IT Officer</h3>
-            <p style={styles.entryDate}>Company Name - Dates</p>
+            <p style={styles.entryDate}>Mamo Kacha PLC - Dates</p>
             <p style={styles.entryDescription}>Description of your role, responsibilities, and key achievements.</p>
           </div>
         </div>
@@ -50,7 +56,7 @@ const Resume = () => {
         </div>
 
         {/* Download Resume Button */}
-        <a href="/path-to-your-resume.pdf" style={styles.downloadButton} download>
+        <a href='https://drive.google.com/file/d/1ite0UzhA5zseShXH_oqXVkFNwl2Z_kpe/view?usp=sharing' style={styles.downloadButton}>
           Download My Resume
         </a>
       </div>

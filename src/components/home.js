@@ -20,7 +20,7 @@ const Home = () => {
                     </div>
 
                 </div>
-                <a href="/portfolio" style={styles.ctaButton}>View My Work</a>
+                <a href="/experience" style={styles.ctaButton}>View My Work</a>
             </div>
         </section>
     );
