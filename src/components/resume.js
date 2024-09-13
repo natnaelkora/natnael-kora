@@ -57,7 +57,7 @@ const Resume = () => {
 
         {/* Download Resume Button */}
         <a href='https://drive.google.com/file/d/1ite0UzhA5zseShXH_oqXVkFNwl2Z_kpe/view?usp=sharing' style={styles.downloadButton}>
-          Download My Resume
+          View My Resume
         </a>
       </div>
     </section>
